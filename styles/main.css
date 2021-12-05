@@ -88,6 +88,7 @@ The designs were created to the following widths:
 }
 
 .fieldset{
+    
     padding-top: 1rem;
     margin-left: 1rem;
     /* margin-right: 1rem; */
@@ -138,4 +139,52 @@ The designs were created to the following widths:
     margin-left: .5rem;
     margin-top: 3rem;
     bottom: 0;
+}
+
+@media all and (min-width:1024px){
+    .body{
+        background-image: url(../images/bg-intro-desktop.png);
+    }
+ .main{
+        display: flex;
+    }   
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .title{
+        text-align: left;
+        font-size: 3rem;
+        line-height: 50px;
+        margin-left: 6rem;
+    }
+
+    .main-paragraph{
+        text-align: left;
+        margin-left: 6rem;
+    margin-right: 4rem;
+    }
+
+    .form-section{
+        margin-right: 5rem;
+    }
+
+    .form{
+        grid-column-start: 2;
+    }
+
+    /* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-left: .5rem;
+    margin-top: 3rem;
+    bottom: 0;
+}
 }
