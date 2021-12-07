@@ -2,8 +2,6 @@
 
 const form = document.querySelector('.js-form');
 
-// const submitBtn = document.querySelector('.js-submit');
-
 const firstName = document.querySelector('.js-first-name');
 const email = document.querySelector('.js-email');
 const password = document.querySelector('.js-password');
