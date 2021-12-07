@@ -35,15 +35,17 @@
           <span class="par-span">Try it free 7 days</span> then $20/mo.
           thereafter
         </p>
-        <form action="#" class="form">
+        <form action="#" class="form js-form">
           <fieldset class="fieldset">
+            <span class="error-message js-first-name-err"></span>
             <input
               type="text"
               name="first-name"
               id="first-name"
               placeholder="First Name"
-              class="input"
+              class="input js-first-name"
             />
+
             <input
               type="text"
               name="last-name"
@@ -51,25 +53,27 @@
               placeholder="Last Name"
               class="input"
             />
+            <span class="error-message js-email-err"></span>
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email Address"
-              class="input"
+              class="input js-email"
             />
+            <span class="error-message js-pass-err"></span>
             <input
               type="password"
               name="password"
               id="password"
               placeholder="Password"
-              class="input"
+              class="input js-password"
             />
+
             <input
               type="submit"
-              class="btn"
+              class="btn js-submit"
               value="Claim your free trial"
-              placeholder=""
             />
             <p class="terms-par">
               By clicking the button, you are agreeing to our
@@ -93,5 +97,6 @@
         >.
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
